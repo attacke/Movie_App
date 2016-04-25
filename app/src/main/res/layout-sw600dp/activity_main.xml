@@ -1,0 +1,29 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:name="com.example.omarhamdy.pro_phase1.MainActivityFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="#ffffff"
+        android:id="@+id/main_layout">
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:name="com.example.omarhamdy.pro_phase1.MainActivityFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="#ffffff"
+        android:id="@+id/main_layout2">
+    </FrameLayout>
+
+
+</LinearLayout>
+

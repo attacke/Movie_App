@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.omarhamdy.pro_phase1.MainActivity">
+
+
+    <item
+        android:id="@+id/action_top_rated"
+        android:orderInCategory="1"
+        android:title="Top Rated"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_most_popular"
+        android:orderInCategory="2"
+        android:title="Most Poupler"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_favourit"
+        android:orderInCategory="100"
+        android:title="Favourit"
+        app:showAsAction="never" />
+
+
+</menu>
